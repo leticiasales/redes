@@ -1,0 +1,120 @@
+Log do servidor com 3 clientes, refresh rate de cada um, 12, 5 e 2 segundos:
+
+$ python server.py 
+Waiting for connections
+('Client connection accepted with', ('127.0.0.1', 41040))
+('Waiting for refresh time with the client: ', 1)
+('Connection estabilished with a refresh time of', 12.0, 'seconds')
+('Server sent:', 'N: 1 Message: 8 Id: 1; ')
+('Client connection accepted with', ('127.0.0.1', 41042))
+('Waiting for refresh time with the client: ', 3)
+('Connection estabilished with a refresh time of', 2.0, 'seconds')
+('Server sent:', 'N: 1 Message: 8 Id: 3; ')
+('Client connection accepted with', ('127.0.0.1', 41044))
+('Waiting for refresh time with the client: ', 2)
+('Connection estabilished with a refresh time of', 5.0, 'seconds')
+('Server sent:', 'N: 1 Message: 8 Id: 2; ')
+('Server sent:', 'N: 2 Message: 5 Id: 3; ')
+('Server sent:', 'N: 3 Message: 3 Id: 3; ')
+('Server sent:', 'N: 4 Message: 6 Id: 3; ')
+('Server sent:', 'N: 2 Message: 5 Id: 2; ')
+('Server sent:', 'N: 5 Message: 8 Id: 3; ')
+('Server sent:', 'N: 2 Message: 5 Id: 1; ')
+('Server sent:', 'N: 6 Message: 7 Id: 3; ')
+('Server sent:', 'N: 3 Message: 3 Id: 2; ')
+('Server sent:', 'N: 7 Message: 2 Id: 3; ')
+('Server sent:', 'N: 8 Message: 8 Id: 3; ')
+('Server sent:', 'N: 9 Message: 3 Id: 3; ')
+('Server sent:', 'N: 4 Message: 6 Id: 2; ')
+('Server sent:', 'N: 10 Message: 9 Id: 3; ')
+('Server sent:', 'N: 11 Message: 4 Id: 3; ')
+('Server sent:', 'N: 5 Message: 8 Id: 2; ')
+('Server sent:', 'N: 3 Message: 3 Id: 1; ')
+('Server sent:', 'N: 12 Message: 2 Id: 3; ')
+('Server sent:', 'N: 13 Message: 0 Id: 3; ')
+('Server sent:', 'N: 14 Message: 2 Id: 3; ')
+('Server sent:', 'N: 6 Message: 7 Id: 2; ')
+('Server sent:', 'N: 15 Message: 5 Id: 3; ')
+('Server sent:', 'N: 16 Message: 1 Id: 3; ')
+('Server sent:', 'N: 7 Message: 2 Id: 2; ')
+('Server sent:', 'N: 17 Message: 2 Id: 3; ')
+('Server sent:', 'N: 4 Message: 6 Id: 1; ')
+('Server sent:', 'N: 18 Message: 0 Id: 3; ')
+('Server sent:', 'N: 19 Message: 3 Id: 3; ')
+('Server sent:', 'N: 8 Message: 8 Id: 2; ')
+('Server sent:', 'N: 20 Message: 9 Id: 3; ')
+('Server sent:', 'N: 21 Message: 5 Id: 3; ')
+('Client connection closed, ID', 3, 'IP', ('127.0.0.1', 41042))
+('Server sent:', 'N: 9 Message: 3 Id: 2; ')
+('Server sent:', 'N: 5 Message: 8 Id: 1; ')
+('Server sent:', 'N: 10 Message: 9 Id: 2; ')
+('Client connection closed, ID', 2, 'IP', ('127.0.0.1', 41044))
+('Server sent:', 'N: 6 Message: 7 Id: 1; ')
+('Client connection closed, ID', 1, 'IP', ('127.0.0.1', 41040))
+^CClosing the server
+
+#Servidor foi fechado ao usarmos o KeyboardInterrupt
+
+Log do cliente de ID 1 e Refresh rate de 12 Seg:
+
+$ python client.py 12
+('Sending refresh time : ', '12')
+'N: 1 Message: 8 Id: 1; '
+'N: 2 Message: 5 Id: 1; '
+'N: 3 Message: 3 Id: 1; '
+'N: 4 Message: 6 Id: 1; '
+^CConnection closed
+('Last package lost', 0)
+('Packages lost', 0, '%')
+('Packages not in order', 0, '%')
+
+#Cliente foi desonectado ao usarmos o KeyboardInterrupt
+
+Log do cliente de ID 2 e Refresh rate de 5 Seg:
+
+$ python client.py 5
+('Sending refresh time : ', '5')
+'N: 1 Message: 8 Id: 2; '
+'N: 2 Message: 5 Id: 2; '
+'N: 3 Message: 3 Id: 2; '
+'N: 4 Message: 6 Id: 2; '
+'N: 5 Message: 8 Id: 2; '
+'N: 6 Message: 7 Id: 2; '
+'N: 7 Message: 2 Id: 2; '
+'N: 8 Message: 8 Id: 2; '
+^CConnection closed
+('Last package lost', 0)
+('Packages lost', 0, '%')
+('Packages not in order', 0, '%')
+
+#Cliente foi desonectado ao usarmos o KeyboardInterrupt
+
+Log do cliente de ID 3 e Refresh rate de 2 Seg:
+
+$ python client.py 2
+('Sending refresh time : ', '2')
+'N: 1 Message: 8 Id: 3; '
+'N: 2 Message: 5 Id: 3; '
+'N: 3 Message: 3 Id: 3; '
+'N: 4 Message: 6 Id: 3; '
+'N: 5 Message: 8 Id: 3; '
+'N: 6 Message: 7 Id: 3; '
+'N: 7 Message: 2 Id: 3; '
+'N: 8 Message: 8 Id: 3; '
+'N: 9 Message: 3 Id: 3; '
+'N: 10 Message: 9 Id: 3; '
+'N: 11 Message: 4 Id: 3; '
+'N: 12 Message: 2 Id: 3; '
+'N: 13 Message: 0 Id: 3; '
+'N: 14 Message: 2 Id: 3; '
+'N: 15 Message: 5 Id: 3; '
+'N: 16 Message: 1 Id: 3; '
+'N: 17 Message: 2 Id: 3; '
+'N: 18 Message: 0 Id: 3; '
+'N: 19 Message: 3 Id: 3; '
+^CConnection closed
+('Last package lost', 0)
+('Packages lost', 0, '%')
+('Packages not in order', 0, '%')
+
+#Cliente foi desonectado ao usarmos o KeyboardInterrupt

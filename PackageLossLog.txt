@@ -1,0 +1,368 @@
+Parte do log do cliente com um refresh rate de 0.0001, causando perda de pacote:
+
+'N: 7473 Message: 7 Id: 1; '
+'N: 7474 Message: 8 Id: 1; '
+'N: 7475 Message: 5 Id: 1; '
+'N: 7476 Message: 8 Id: 1; '
+'N: 7477 Message: 7 Id: 1; '
+'N: 7478 Message: 0 Id: 1; '
+'N: 7479 Message: 7 Id: 1; '
+'N: 7480 Message: 2 Id: 1; '
+'N: 7481 Message: 5 Id: 1; '
+'N: 7482 Message: 6 Id: 1; '
+'N: 7483 Message: 7 Id: 1; '
+'N: 7484 Message: 4 Id: 1; '
+'N: 7485 Message: 6 Id: 1; '
+'N: 7486 Message: 5 Id: 1; '
+'N: 7487 Message: 5 Id: 1; '
+'N: 7488 Message: 7 Id: 1; '
+'N: 7489 Message: 6 Id: 1; '
+'N: 7490 Message: 2 Id: 1; '
+'N: 7491 Message: 7 Id: 1; '
+'N: 7492 Message: 0 Id: 1; '
+'N: 7493 Message: 8 Id: 1; '
+'N: 7494 Message: 5 Id: 1; '
+'N: 7495 Message: 5 Id: 1; '
+'N: 7496 Message: 2 Id: 1; '
+'N: 7497 Message: 8 Id: 1; '
+'N: 7498 Message: 2 Id: 1; '
+'N: 7499 Message: 6 Id: 1; '
+'N: 7500 Message: 4 Id: 1; '
+'N: 7501 Message: 4 Id: 1; '
+'N: 7502 Message: 1 Id: 1; '
+'N: 7503 Message: 6 Id: 1; '
+'N: 7504 Message: 5 Id: 1; '
+'N: 7505 Message: 9 Id: 1; '
+'N: 7506 Message: 5 Id: 1; '
+'N: 7507 Message: 7 Id: 1; '
+'N: 7508 Message: 1 Id: 1; '
+'N: 7509 Message: 4 Id: 1; '
+'N: 7510 Message: 1 Id: 1; '
+'N: 7511 Message: 5 Id: 1; '
+'N: 7512 Message: 5 Id: 1; '
+'N: 7513 Message: 1 Id: 1; '
+'N: 7514 Message: 5 Id: 1; '
+'N: 7515 Message: 4 Id: 1; '
+'N: 7516 Message: 4 Id: 1; '
+'N: 7517 Message: 3 Id: 1; '
+'N: 7518 Message: 1 Id: 1; '
+'N: 7519 Message: 3 Id: 1; '
+'N: 7520 Message: 8 Id: 1; '
+'N: 7521 Message: 2 Id: 1; '
+'N: 7522 Message: 9 Id: 1; '
+'N: 7523 Message: 4 Id: 1; '
+'N: 7524 Message: 2 Id: 1; '
+'N: 7525 Message: 9 Id: 1; '
+'N: 7526 Message: 0 Id: 1; '
+'N: 7527 Message: 6 Id: 1; '
+'N: 7528 Message: 7 Id: 1; '
+'N: 7529 Message: 0 Id: 1; '
+'N: 7530 Message: 4 Id: 1; '
+'N: 7531 Message: 8 Id: 1; '
+'N: 7532 Message: 3 Id: 1; '
+'N: 7533 Message: 4 Id: 1; '
+'N: 7534 Message: 3 Id: 1; '
+'N: 7535 Message: 1 Id: 1; '
+'N: 7536 Message: 1 Id: 1; '
+'N: 7537 Message: 2 Id: 1; '
+'N: 7538 Message: 8 Id: 1; '
+'N: 7539 Message: 5 Id: 1; '
+'N: 7540 Message: 9 Id: 1; '
+'N: 7541 Message: 0 Id: 1; '
+'N: 7542 Message: 5 Id: 1; '
+'N: 7543 Message: 6 Id: 1; '
+'N: 7544 Message: 3 Id: 1; N: 754'
+'5 Message: 6 Id: 1; N: 7546 Mess'
+'age: 6 Id: 1; N: 7547 Message: 8'
+' Id: 1; N: 7548 Message: 8 Id: 1'
+'; N: 7549 Message: 3 Id: 1; N: 7'
+'550 Message: 4 Id: 1; N: 7551 Me'
+'ssage: 9 Id: 1; N: 7552 Message:'
+' 8 Id: 1; N: 7553 Message: 3 Id:'
+' 1; N: 7554 Message: 2 Id: 1; N:'
+' 7555 Message: 9 Id: 1; N: 7556 '
+'Message: 5 Id: 1; '
+'N: 7557 Message: 0 Id: 1; '
+'N: 7558 Message: 5 Id: 1; '
+'N: 7559 Message: 2 Id: 1; '
+'N: 7560 Message: 6 Id: 1; '
+'N: 7561 Message: 2 Id: 1; '
+'N: 7562 Message: 9 Id: 1; '
+'N: 7563 Message: 1 Id: 1; '
+'N: 7564 Message: 3 Id: 1; '
+'N: 7565 Message: 1 Id: 1; '
+'N: 7566 Message: 7 Id: 1; '
+'N: 7567 Message: 8 Id: 1; '
+'N: 7568 Message: 4 Id: 1; '
+'N: 7569 Message: 3 Id: 1; '
+'N: 7570 Message: 8 Id: 1; '
+'N: 7571 Message: 5 Id: 1; '
+'N: 7572 Message: 2 Id: 1; '
+'N: 7573 Message: 3 Id: 1; '
+'N: 7574 Message: 7 Id: 1; '
+'N: 7575 Message: 2 Id: 1; '
+'N: 7576 Message: 5 Id: 1; '
+'N: 7577 Message: 8 Id: 1; '
+'N: 7578 Message: 5 Id: 1; '
+'N: 7579 Message: 3 Id: 1; '
+'N: 7580 Message: 9 Id: 1; '
+'N: 7581 Message: 2 Id: 1; '
+'N: 7582 Message: 5 Id: 1; '
+'N: 7583 Message: 4 Id: 1; '
+'N: 7584 Message: 7 Id: 1; '
+'N: 7585 Message: 7 Id: 1; '
+'N: 7586 Message: 1 Id: 1; '
+'N: 7587 Message: 4 Id: 1; '
+'N: 7588 Message: 4 Id: 1; '
+'N: 7589 Message: 1 Id: 1; '
+'N: 7590 Message: 7 Id: 1; '
+'N: 7591 Message: 2 Id: 1; '
+'N: 7592 Message: 8 Id: 1; '
+'N: 7593 Message: 6 Id: 1; '
+'N: 7594 Message: 0 Id: 1; '
+'N: 7595 Message: 6 Id: 1; '
+'N: 7596 Message: 5 Id: 1; '
+'N: 7597 Message: 9 Id: 1; '
+'N: 7598 Message: 1 Id: 1; '
+'N: 7599 Message: 3 Id: 1; '
+'N: 7600 Message: 7 Id: 1; '
+'N: 7601 Message: 1 Id: 1; '
+'N: 7602 Message: 1 Id: 1; '
+'N: 7603 Message: 8 Id: 1; '
+'N: 7604 Message: 6 Id: 1; '
+'N: 7605 Message: 6 Id: 1; '
+'N: 7606 Message: 1 Id: 1; '
+'N: 7607 Message: 3 Id: 1; '
+'N: 7608 Message: 8 Id: 1; '
+'N: 7609 Message: 7 Id: 1; '
+'N: 7610 Message: 4 Id: 1; '
+'N: 7611 Message: 1 Id: 1; '
+'N: 7612 Message: 0 Id: 1; '
+'N: 7613 Message: 9 Id: 1; '
+'N: 7614 Message: 3 Id: 1; '
+'N: 7615 Message: 7 Id: 1; '
+'N: 7616 Message: 6 Id: 1; '
+'N: 7617 Message: 6 Id: 1; '
+'N: 7618 Message: 9 Id: 1; '
+'N: 7619 Message: 5 Id: 1; '
+'N: 7620 Message: 6 Id: 1; '
+'N: 7621 Message: 3 Id: 1; '
+'N: 7622 Message: 1 Id: 1; '
+'N: 7623 Message: 6 Id: 1; '
+'N: 7624 Message: 3 Id: 1; '
+'N: 7625 Message: 3 Id: 1; '
+'N: 7626 Message: 7 Id: 1; '
+'N: 7627 Message: 2 Id: 1; '
+'N: 7628 Message: 5 Id: 1; '
+'N: 7629 Message: 0 Id: 1; '
+'N: 7630 Message: 0 Id: 1; '
+'N: 7631 Message: 4 Id: 1; '
+'N: 7632 Message: 0 Id: 1; '
+'N: 7633 Message: 0 Id: 1; '
+'N: 7634 Message: 5 Id: 1; '
+'N: 7635 Message: 3 Id: 1; '
+'N: 7636 Message: 4 Id: 1; '
+'N: 7637 Message: 2 Id: 1; '
+'N: 7638 Message: 6 Id: 1; '
+'N: 7639 Message: 4 Id: 1; '
+'N: 7640 Message: 0 Id: 1; '
+'N: 7641 Message: 0 Id: 1; '
+'N: 7642 Message: 9 Id: 1; '
+'N: 7643 Message: 8 Id: 1; '
+'N: 7644 Message: 5 Id: 1; '
+'N: 7645 Message: 8 Id: 1; '
+'N: 7646 Message: 9 Id: 1; '
+'N: 7647 Message: 5 Id: 1; '
+'N: 7648 Message: 6 Id: 1; '
+'N: 7649 Message: 6 Id: 1; '
+'N: 7650 Message: 5 Id: 1; '
+'N: 7651 Message: 6 Id: 1; '
+'N: 7652 Message: 5 Id: 1; '
+'N: 7653 Message: 0 Id: 1; '
+^CConnection closed
+('Last package lost', 7556)
+('Packages lost 0.47', '%')
+('Packages not in order 0.24', '%')
+
+Log do servidor ao enviar os pacotes para esse cliente:
+
+#Começo do Log
+('Client connection accepted with', ('127.0.0.1', 41824))
+('Waiting for refresh time with the client: ', 1)
+('Connection estabilished with a refresh time of', 0.0001, 'seconds')
+('Server sent:', 'N: 1 Message: 0 Id: 1; ')
+('Server sent:', 'N: 2 Message: 9 Id: 1; ')
+('Server sent:', 'N: 3 Message: 0 Id: 1; ')
+('Server sent:', 'N: 4 Message: 4 Id: 1; ')
+('Server sent:', 'N: 5 Message: 5 Id: 1; ')
+('Server sent:', 'N: 6 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7 Message: 7 Id: 1; ')
+('Server sent:', 'N: 8 Message: 4 Id: 1; ')
+('Server sent:', 'N: 9 Message: 1 Id: 1; ')
+('Server sent:', 'N: 10 Message: 2 Id: 1; ')
+('Server sent:', 'N: 11 Message: 0 Id: 1; ')
+('Server sent:', 'N: 12 Message: 0 Id: 1; ')
+('Server sent:', 'N: 13 Message: 8 Id: 1; ')
+('Server sent:', 'N: 14 Message: 3 Id: 1; ')
+('Server sent:', 'N: 15 Message: 9 Id: 1; ')
+('Server sent:', 'N: 16 Message: 0 Id: 1; ')
+('Server sent:', 'N: 17 Message: 4 Id: 1; ')
+('Server sent:', 'N: 18 Message: 3 Id: 1; ')
+('Server sent:', 'N: 19 Message: 6 Id: 1; ')
+('Server sent:', 'N: 20 Message: 4 Id: 1; ')
+('Server sent:', 'N: 21 Message: 3 Id: 1; ')
+('Server sent:', 'N: 22 Message: 8 Id: 1; ')
+('Server sent:', 'N: 23 Message: 8 Id: 1; ')
+('Server sent:', 'N: 24 Message: 4 Id: 1; ')
+('Server sent:', 'N: 25 Message: 0 Id: 1; ')
+('Server sent:', 'N: 26 Message: 6 Id: 1; ')
+('Server sent:', 'N: 27 Message: 1 Id: 1; ')
+('Server sent:', 'N: 28 Message: 7 Id: 1; ')
+('Server sent:', 'N: 29 Message: 8 Id: 1; ')
+('Server sent:', 'N: 30 Message: 3 Id: 1; ')
+('Server sent:', 'N: 31 Message: 4 Id: 1; ')
+('Server sent:', 'N: 32 Message: 2 Id: 1; ')
+('Server sent:', 'N: 33 Message: 9 Id: 1; ')
+('Server sent:', 'N: 34 Message: 0 Id: 1; ')
+('Server sent:', 'N: 35 Message: 8 Id: 1; ')
+('Server sent:', 'N: 36 Message: 8 Id: 1; ')
+('Server sent:', 'N: 37 Message: 7 Id: 1; ')
+('Server sent:', 'N: 38 Message: 5 Id: 1; ')
+('Server sent:', 'N: 39 Message: 1 Id: 1; ')
+('Server sent:', 'N: 40 Message: 9 Id: 1; ')
+('Server sent:', 'N: 41 Message: 2 Id: 1; ')
+('Server sent:', 'N: 42 Message: 1 Id: 1; ')
+('Server sent:', 'N: 43 Message: 4 Id: 1; ')
+('Server sent:', 'N: 44 Message: 0 Id: 1; ')
+('Server sent:', 'N: 45 Message: 4 Id: 1; ')
+('Server sent:', 'N: 46 Message: 0 Id: 1; ')
+('Server sent:', 'N: 47 Message: 3 Id: 1; ')
+('Server sent:', 'N: 48 Message: 0 Id: 1; ')
+('Server sent:', 'N: 49 Message: 4 Id: 1; ')
+('Server sent:', 'N: 50 Message: 9 Id: 1; ')
+
+#Final do log
+('Server sent:', 'N: 7534 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7535 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7536 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7537 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7538 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7539 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7540 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7541 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7542 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7543 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7544 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7545 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7546 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7547 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7548 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7549 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7550 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7551 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7552 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7553 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7554 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7555 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7556 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7557 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7558 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7559 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7560 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7561 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7562 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7563 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7564 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7565 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7566 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7567 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7568 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7569 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7570 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7571 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7572 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7573 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7574 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7575 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7576 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7577 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7578 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7579 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7580 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7581 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7582 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7583 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7584 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7585 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7586 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7587 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7588 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7589 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7590 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7591 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7592 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7593 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7594 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7595 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7596 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7597 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7598 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7599 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7600 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7601 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7602 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7603 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7604 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7605 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7606 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7607 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7608 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7609 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7610 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7611 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7612 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7613 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7614 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7615 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7616 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7617 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7618 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7619 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7620 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7621 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7622 Message: 1 Id: 1; ')
+('Server sent:', 'N: 7623 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7624 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7625 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7626 Message: 7 Id: 1; ')
+('Server sent:', 'N: 7627 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7628 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7629 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7630 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7631 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7632 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7633 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7634 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7635 Message: 3 Id: 1; ')
+('Server sent:', 'N: 7636 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7637 Message: 2 Id: 1; ')
+('Server sent:', 'N: 7638 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7639 Message: 4 Id: 1; ')
+('Server sent:', 'N: 7640 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7641 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7642 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7643 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7644 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7645 Message: 8 Id: 1; ')
+('Server sent:', 'N: 7646 Message: 9 Id: 1; ')
+('Server sent:', 'N: 7647 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7648 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7649 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7650 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7651 Message: 6 Id: 1; ')
+('Server sent:', 'N: 7652 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7653 Message: 0 Id: 1; ')
+('Server sent:', 'N: 7654 Message: 5 Id: 1; ')
+('Server sent:', 'N: 7655 Message: 4 Id: 1; ')
+('Client connection closed, ID', 1, 'IP', ('127.0.0.1', 41824))
+
