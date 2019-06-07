@@ -2,7 +2,6 @@
 import socket
 import os
 import time
-import datetime
 import sys
 from random import randint
 
